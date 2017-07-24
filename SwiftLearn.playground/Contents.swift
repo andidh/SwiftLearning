@@ -114,3 +114,15 @@ class Presenter {
     }
     
 }
+
+
+
+//: Tuples
+
+func toTuple(_ address: String, number: Int) -> (address: String, number: Int) {
+    return (address, number)
+}
+
+var addr = toTuple("Dacia", number: 7)
+print(addr.number)
+print(addr.address)
